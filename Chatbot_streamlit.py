@@ -4,7 +4,7 @@ from openai import OpenAI
 # -----------------------------
 # Configure OpenAI
 # -----------------------------
-client = OpenAI(api_key="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")
+client = OpenAI(api_key=st.secrets["OPENAI_API_KEY"])
 # OR (not recommended)
 # client = OpenAI(api_key="YOUR_API_KEY")
 
